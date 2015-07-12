@@ -28,11 +28,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="Aggregator" target="1.5" />
-      <module name="jdbc" target="1.5" />
-      <module name="oracle-core-entity" target="1.5" />
-      <module name="oracle-hibernate" target="1.5" />
-      <module name="Persistance" target="1.5" />
+      <module name="Aggregator" target="1.8" />
+      <module name="jdbc" target="1.8" />
+      <module name="oracle-core-entity" target="1.8" />
+      <module name="oracle-hibernate" target="1.8" />
+      <module name="Persistance" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
