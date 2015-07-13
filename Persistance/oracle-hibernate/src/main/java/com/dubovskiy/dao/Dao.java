@@ -5,4 +5,6 @@ package com.dubovskiy.dao;
  */
 public interface Dao {
 
+   /*  findAll();*/
+
 }
