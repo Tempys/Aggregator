@@ -9,7 +9,9 @@ public class Region {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "REGION_ID")
     private long id;
+    @Column(name = "REGION_NAME")
     private String name;
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "region")
     private Set<Country> countries;

@@ -1,14 +1,13 @@
 package jdbc;
 
-import com.jdbc.dao.Dao;
-import com.jdbc.entity.Item;
-import com.jdbc.entity.Language;
-import com.jdbc.entity.Topic;
+import com.dubovkiy.jdbc.dao.Dao;
+import com.dubovskiy.jdbc.entity.Item;
+import com.dubovskiy.jdbc.entity.Language;
+import com.dubovskiy.jdbc.entity.Topic;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.transaction.TransactionConfiguration;

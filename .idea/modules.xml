@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Aggregator.iml" filepath="$PROJECT_DIR$/Aggregator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Persistance/Persistance.iml" filepath="$PROJECT_DIR$/Persistance/Persistance.iml" group="Persistance and modules" />
-      <module fileurl="file://$PROJECT_DIR$/Persistance/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/Persistance/jdbc/jdbc.iml" group="Persistance and modules" />
-      <module fileurl="file://$PROJECT_DIR$/Persistance/oracle-core-entity/oracle-core-entity.iml" filepath="$PROJECT_DIR$/Persistance/oracle-core-entity/oracle-core-entity.iml" group="Persistance and modules" />
-      <module fileurl="file://$PROJECT_DIR$/Persistance/oracle-hibernate/oracle-hibernate.iml" filepath="$PROJECT_DIR$/Persistance/oracle-hibernate/oracle-hibernate.iml" group="Persistance and modules" />
+      <module fileurl="file://$PROJECT_DIR$/aggregator.iml" filepath="$PROJECT_DIR$/aggregator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Persistance/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/Persistance/jdbc/jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Persistance/oracle-core-entity/oracle-core-entity.iml" filepath="$PROJECT_DIR$/Persistance/oracle-core-entity/oracle-core-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Persistance/oracle-hibernate/oracle-hibernate.iml" filepath="$PROJECT_DIR$/Persistance/oracle-hibernate/oracle-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Persistance/persistance.iml" filepath="$PROJECT_DIR$/Persistance/persistance.iml" />
     </modules>
   </component>
 </project>

@@ -1,11 +1,8 @@
-package com.jdbc.dao;
+package com.dubovkiy.jdbc.dao;
 
-import com.jdbc.entity.Item;
-
-import com.jdbc.entity.Topic;
+import com.dubovskiy.jdbc.entity.Item;
+import com.dubovskiy.jdbc.entity.Topic;
 import org.springframework.stereotype.Repository;
-
-
 
 import java.sql.Connection;
 import java.sql.ResultSet;

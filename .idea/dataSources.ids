@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source name="MySQL - @localhost" uuid="c5a2ad84-5921-43b9-bbd4-799a06feea1b">
-    <database-info product="MySQL" version="5.6.24-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
-      <extra-name-characters>#@</extra-name-characters>
-      <identifier-quote-string>`</identifier-quote-string>
+  <data-source name="Oracle -" uuid="0f689615-67b2-400a-9a20-3a3162322533">
+    <database-info product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production&#xa;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0">
+      <extra-name-characters>$#</extra-name-characters>
+      <identifier-quote-string>&quot;</identifier-quote-string>
     </database-info>
-    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
-    <schema name="" catalog="aggregator"/>
-    <table name="data" schema="" catalog="aggregator" type="TABLE">
-      <column name="id" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" autoIncrement="true"/>
-      <column name="favourite" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
-      <column name="html_title" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <column name="language" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <column name="link" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <column name="snippet" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <column name="topic" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="id"/>
-    </table>
-  </data-source>
-  <data-source name="Oracle - root@localhost" uuid="88228718-b75e-4382-8eb2-ab46a9eb288e">
-    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
     <schema name="HR" catalog=""/>
     <schema name="SYS" catalog=""/>
     <schema name="SYSTEM" catalog=""/>

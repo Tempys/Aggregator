@@ -1,6 +1,6 @@
-package com.jdbc.dao;
+package com.dubovkiy.jdbc.dao;
 
-import com.jdbc.entity.Item;
+import com.dubovskiy.jdbc.entity.Item;
 
 import java.sql.SQLException;
 import java.util.List;

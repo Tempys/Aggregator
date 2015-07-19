@@ -1,10 +1,13 @@
 package com.dubovskiy.dao;
 
+import com.dubovskiy.coreOracleEntity.entity.Region;
+
+import java.util.List;
+
 /**
  * Created by Misha on 12.07.2015.
  */
 public interface Dao {
 
-   /*  findAll();*/
-
+     List<Region> findAllRegion();
 }

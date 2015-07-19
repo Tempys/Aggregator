@@ -1,4 +1,4 @@
-package com.jdbc.entity;
+package com.dubovskiy.jdbc.entity;
 
 
 
