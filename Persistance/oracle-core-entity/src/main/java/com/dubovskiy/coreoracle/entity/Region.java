@@ -1,4 +1,4 @@
-package com.dubovskiy.coreOracleEntity.entity;
+package com.dubovskiy.coreoracle.entity;
 
 
 import javax.persistence.*;

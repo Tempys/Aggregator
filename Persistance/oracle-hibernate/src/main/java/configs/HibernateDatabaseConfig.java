@@ -1,4 +1,4 @@
-package com.dubovskiy.configs;
+package configs;
 
 /*@Configuration
 @EnableTransactionManagement*/

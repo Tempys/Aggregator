@@ -1,6 +1,6 @@
 package com.dubovskiy.dao;
 
-import com.dubovskiy.coreOracleEntity.entity.Region;
+import com.dubovskiy.coreoracle.entity.Region;
 
 import java.util.List;
 

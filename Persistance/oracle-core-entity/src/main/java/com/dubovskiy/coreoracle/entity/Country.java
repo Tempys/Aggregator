@@ -1,6 +1,7 @@
-package com.dubovskiy.coreOracleEntity.entity;
+package com.dubovskiy.coreoracle.entity;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity(name = "COUNTRIES")
 public class Country {
@@ -9,8 +10,18 @@ public class Country {
     @GeneratedValue(strategy = GenerationType.AUTO)
     String id;
     String name;
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "country")
+    Set<Location> locations;
     @ManyToOne
     private Region region;
+
+    public Set<Location> getLocations() {
+        return locations;
+    }
+
+    public void setLocations(Set<Location> locations) {
+        this.locations = locations;
+    }
 
     public String getId() {
         return id;

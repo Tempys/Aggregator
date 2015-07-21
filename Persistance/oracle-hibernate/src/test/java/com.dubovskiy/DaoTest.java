@@ -1,9 +1,9 @@
 package com.dubovskiy;
 
-import com.dubovskiy.configs.JpaDatabaseConfig;
-import com.dubovskiy.coreOracleEntity.entity.Region;
+import com.dubovskiy.coreoracle.entity.Region;
 import com.dubovskiy.dao.Dao;
 import com.dubovskiy.dao.DaoImpl;
+import configs.JpaDatabaseConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
