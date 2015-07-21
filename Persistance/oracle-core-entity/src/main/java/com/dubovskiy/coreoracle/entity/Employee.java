@@ -8,11 +8,19 @@ import java.util.Date;
  */
 @Entity(name = "EMPLOYEES")
 public class Employee {
+    @Column(name = "FIRST_NAME")
     String firstName;
+    @Column(name = "LAST_NAME")
     String LastName;
+    @Column(name = "EMAIL")
     String email;
+    @Column(name = "PHONE_NUMBER")
     String phoneNumber;
+    @Column(name = "HIRE_DATE")
     Date hireDate;
+    @OneToOne(mappedBy = "employee",
+            cascade = CascadeType.ALL, orphanRemoval = true)
+    Department department;
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "EMPLOYEE_ID")
